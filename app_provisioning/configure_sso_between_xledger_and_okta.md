@@ -25,7 +25,7 @@ We need to setup the User Login Service in Xledger based on some information fro
 4.	In a browser from your okta tab, copy the company specific url (in this example dev-0555.okta.com and navigate to Okta login site from a new tab) \
 ![Company Url](media/okta_company_url.png)
 
-5.	**In Xledger go to Administration > System Access > Identity Access Management > User Login Service** \
+5.	**In Xledger go to Administration > System Access > Identity Access Management > User Login Service**
 -	enter Oktas client ID from point 2 as tenant ID
 -	client secret as tenant secret
 -	enter company specific url as metadata address, add suffix /.well-known/openid-configuration \
