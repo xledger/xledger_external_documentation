@@ -18,7 +18,7 @@ Xledgers app in Okta enables you to use SSO as your method of authentication and
 ![SCIM Token](media/scim_token.png)
 -	Add the integration in Okta. In Applications > Applications, click Browse App Catalog and search for Xledger
 -	Go to Provisioning tab:
-(For customers with access to our demo environment that wish to test the solution first, 	please refer to help section/document Configure SSO With Okta – Configuration Steps (3))
+(For customers with access to our demo environment that wish to test the solution first, 	please refer to help section/document [Configure SSO between Xledger and Okta](https://github.com/xledger/xledger_external_documentation/blob/master/app_provisioning/configure_sso_between_xledger_and_okta.md) – Configuration Steps (3))
 -	Enter API Token credentials and Test Api Credentials: \
 ![Credentials](media/okta_api_credentials.png)
 
