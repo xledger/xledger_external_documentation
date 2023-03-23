@@ -19,16 +19,19 @@ We need to setup the User Login Service in Xledger based on some information fro
 2.	In Sign-On tab , click edit and copy the Client ID: \
 ![Application Sign On Tab](media/application_sign_on.png)
 
-3.	Chose Environment and paste Client ID here (Demo can be selected for customers with access to our demo environment that wish to test the solution first) \
-![Environment Section](media/application_environment.png)
+3.	Fill out advanced sign-on settings and credentials details: \
+![Environment Section](media/application_environment.png) \
+Choose environment "Production" or "Demo" (Demo can be selected for customers with access to our demo environment that wish to test the solution first). \
+Right under, you and paste Client ID obtained in the previous step. \
+Under credentials details you can specify email (=format username in Xledger) if your Okta settings have a different username format.
 
-4.	In a browser from your okta tab, copy the company specific url (in this example dev-0555.okta.com and navigate to Okta login site from a new tab) \
+4.	Get metadata url by copying the link from the sign-on tab as illustrated here: \
 ![Company Url](media/okta_company_url.png)
 
 5.	**In Xledger go to Administration > System Access > Identity Access Management > User Login Service**
 -	enter Oktas client ID from point 2 as tenant ID
 -	client secret as tenant secret
--	enter company specific url as metadata address, add suffix /.well-known/openid-configuration \
+-	enter metadata url as metadata address \
 ![User Login Service](media/user_login_service.png)
 
 6.	For new users created by provisioning this step can be skipped (user login is created automatically if User Login Service is setup) \
