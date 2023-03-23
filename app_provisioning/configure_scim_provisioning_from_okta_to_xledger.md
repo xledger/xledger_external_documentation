@@ -21,8 +21,13 @@ Xledgers app in Okta enables you to use SSO as your method of authentication and
 (For customers with access to our demo environment that wish to test the solution first, 	please refer to help section/document [Configure SSO between Xledger and Okta](https://github.com/xledger/xledger_external_documentation/blob/master/app_provisioning/configure_sso_between_xledger_and_okta.md) – Configuration Steps (3))
 -	Enter API Token credentials and Test Api Credentials: \
 ![Credentials](media/okta_api_credentials.png)
+- Edit Provisioning to the APP: \
+![Credentials](media/okta_edit_provisioning.png)
+- Enable as shown \
+![Credentials](media/okta_enable_provisioning.png)
 
 ## Attributes and Mapping
+This shows the mapping between fields in Okta and Xledger. If you need a different mapping please contact Xledger support. \
 ![Attributes](media/okta_attributes.png)
 
 ## Troubleshooting and Tips
