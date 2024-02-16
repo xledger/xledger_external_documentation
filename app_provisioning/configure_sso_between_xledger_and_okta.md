@@ -9,7 +9,6 @@
 ## Supported features
 
 - Single Sign-On (OpenID Connect) initiated via Okta
-- Provisioning or manual
 
 ## Configuration steps
 We need to set up the User Login Service in Xledger based on some information from Okta.
