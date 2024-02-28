@@ -30,7 +30,7 @@ We need to set up the User Login Service in Xledger based on some information fr
 ![Environment Section](media/application_environment.png) \
 Choose environment "Production" or "Demo" (Demo can be selected for customers with access to our demo environment that wish to test the solution first). Right below, paste the user login service ID obtained in the previous step.
 
-4. For new users created by provisioning step 5 can be skipped (user login is created automatically if User Login Service is set up).
+4. For new users created by provisioning, please refer to the [provisioning documentation](configure_scim_provisioning_from_okta_to_xledger.md). For users created in Xledger, continue with step 5.
 
 5. To be able to log in to Xledger with Okta, a mapping between the user in Okta and the user in Xledger must be set up in **Administration > System Access > Identity Access Management > User Login**. Create a new row with the user ID set to the appropriate Xledger user and the user login service set to the previously created user login service. The user login ID field must contain the user ID of the user in Okta. It can be obtained from the URL of the user profile in Okta. E.g. if the URL ends with /admin/user/profile/view/00u6f4mxmvZJ7AUsX5d7, then the user ID is 00u6f4mxmvZJ7AUsX5d7. \
 ![User Login](media/user_login.png)
